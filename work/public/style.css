@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+body{
+  font-family: Arial,sans-serif;
+}
+main{
+  width: 480px;
+  margin: 0 auto;
+}
+h1{
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+input[type="text"]{
+  font-size: 2rem;
+  margin: 16px 8px 0 0;
+}
+.add{
+  width: 10%;
+  cursor: pointer;
+}
+
+ul{
+  list-style: none;
+  font-size: 1.6rem;
+}
+li{
+  display: flex;
+  margin-top: 8px;
+}
+input[type="checkbox"]{
+  margin-right: 8px;
+}
+.done {
+  text-decoration: line-through;
+  color: #ccc;
+}
+.delete{
+  color: #ccc;
+  cursor: pointer; 
+  padding-left: 8px;
+  font-size: 1rem;
+}
